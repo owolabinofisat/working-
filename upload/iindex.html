@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Add stylesheet  -->
+    <link rel="stylesheet" href="indexx.css" />
+    <!-- add script -->
+    <script defer src="index.js"></script>
+    <title>Personal Info Form</title>
+  </head>
+  <body>
+    <h2>Welcome to Phonie</h2>
+   
+    <main id="sign">
+       
+    <main class="main-card">
+      <div class="left-card">
+        <div class="network"></div>
+      </div>
+
+      <div class="form-card">
+        <h3>Personal Information</h3>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="phone">Phone Number:</label>
+          <input
+            type="text"
+            id="phone"
+            name="phon"
+            pattern="^(?:\+234\d{10}|0\d{10})$"
+            title="Enter a phone number with Nigeria country code e.g +234 or that begins with 0"
+            autocomplete="tel-country-code"
+            required />
+          <br />
+          <div class="btn_container">
+            <button type="submit">Sign up</button>
+          </div>
+          
+        </form>
+
+      </div>
+    </main>
+    </main>
+  </body>
+</html>

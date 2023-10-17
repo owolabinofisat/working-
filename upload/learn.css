@@ -1,0 +1,148 @@
+body {
+background-image: url("./network.jpg");
+/* background-repeat: no-repeat; */
+/* background-position-y: top ; */
+
+
+    /* background: radial-gradient(circle at 20% 0, 
+     rgb(115, 119, 119),
+     rgba(255, 0, 0, 0) 70.71%
+    ),
+    radial-gradient(circle at 20% 0, 
+     rgb(147, 223, 223),
+     rgba(255, 0, 0, 0) 70.71%
+    ),
+    radial-gradient( circle at 20% 0, 
+     rgb(250, 253, 253),
+     rgba(255, 0, 0, 0) 70.71% 
+    ), 
+    gray; */
+
+    /* background:  linear-gradient
+    (to top, transparent, mistyrose),
+    url("https://www.vecteezy.com/vector-art/2154616-global-network-logo-set");
+   radial-gradient(circle at 20% 0, 
+    rgb(147, 223, 223),
+    rgba(255, 0, 0, 0) 70.71%
+   ), */
+   background-position-y: top;
+
+   /* background-image: url("./network.jpg"); */
+ }
+
+ /* label, input{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+        
+ } */
+ /* .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: rgb(250, 242, 250);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    padding: 20px;
+    width: 100vh;
+    text-align: center;
+
+box-sizing: border-box;   -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+margin: 0%;
+
+background-position: center;
+border: chocolate;
+border-color: red;
+border-width: 20px;
+
+  }
+  #name{
+    animation-delay: 1s;
+ animation-duration: 2s;
+ animation-name:slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 300%;
+    width: 20%;
+  }
+
+
+}
+
+
+#phone{
+    animation-delay: 1s;
+ animation-duration: 3s;
+ animation-name:bounce;
+}
+
+@keyframes bounce {
+  from {
+    margin-left: 300%;
+    width: 20%;
+  }
+}
+
+
+#submit{
+margin-top: auto;   
+ background-color: green;
+ animation-delay: 1s;
+ animation-duration: 4.5s;
+ animation-name:bounce;
+}
+
+@keyframes bounce {
+  from {
+    margin-left: 300%;
+    width: 20%;
+  }
+}
+*/
+
+
+form{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight:bold ;
+    border-radius: 10px;
+
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-name:slidein;
+   }
+   
+   @keyframes slidein {
+     from {
+       margin-left: 300%;
+       width: 20%;
+     }
+   
+
+
+}
+#sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 115vh;
+    margin: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    background-image: url("./network.jpg");
+}
+
+/* label, input{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+        
+ } */
